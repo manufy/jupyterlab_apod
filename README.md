@@ -43,4 +43,5 @@ Show a random NASA Astronomy Picture of the Day in a JupyterLab panel
 
 # 7-enjoy
 
+  Go to View -> Ativate Command Palette -> Random Astronomy Picture
   Take a beer!!
