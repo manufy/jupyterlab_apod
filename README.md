@@ -1,6 +1,6 @@
-Quick steps to develop jupyterlab extensions
+## Quick steps to develop jupyterlab extensions
 
-# jupyterlab_apod extension show a NASA random image on a tab 
+# this jupyterlab_apod extension shows a NASA random image on a tab 
 
 Show a random NASA Astronomy Picture of the Day in a JupyterLab panel
 
