@@ -1,8 +1,6 @@
 ## Quick steps to develop jupyterlab extensions
 
-# this jupyterlab_apod extension shows a NASA random image on a tab 
-
-Show a random NASA Astronomy Picture of the Day in a JupyterLab panel
+ this jupyterlab_apod extension shows a random NASA Astronomy Picture of the Day in a JupyterLab panel
 
 ## 1 Create conda environment
 
