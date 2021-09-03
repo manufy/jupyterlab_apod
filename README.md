@@ -9,14 +9,14 @@ conda create -n jupyterlab-ext --override-channels --strict-channel-priority -c 
 
 2-activate-environment
 
-#
-# To activate this environment, use
-#
-#     $ conda activate jupyterlab-ext
-#
-# To deactivate an active environment, use
-#
-#     $ conda deactivate
+
+ To activate this environment, use
+
+     $ conda activate jupyterlab-ext
+
+ To deactivate an active environment, use
+
+     $ conda deactivate
 
 3-initialize-from-cookiecutter
 
