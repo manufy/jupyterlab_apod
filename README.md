@@ -4,11 +4,11 @@ Quick steps to develop jupyterlab extensions
 
 Show a random NASA Astronomy Picture of the Day in a JupyterLab panel
 
-## 1-create-environment
+## 1 Create conda environment
 
     conda create -n jupyterlab-ext --override-channels --strict-channel-priority -c conda-forge -c nodefaults jupyterlab=3 cookiecutter nodejs jupyter-packaging git
 
-## 2-activate-environment
+## 2 Activate conda environment
 
 
  To activate this environment, use
@@ -19,20 +19,20 @@ Show a random NASA Astronomy Picture of the Day in a JupyterLab panel
 
      $ conda deactivate
 
-## 3-initialize-from-cookiecutter
+## 3 Initialize project from cookiecutter
 
      cookiecutter https://github.com/jupyterlab/extension-cookiecutter-ts
 
-## 4-activate-and-start
+## 4 Acivate environment and start jupyterlab
 
     conda activate jupyterlab-ext
     jupyter lab
 
-## 5-link-development-sources
+## 5 Link development sources to jupyterlab
 
     jupyter labextension develop --overwrite .
 
-## 6-build
+## 6 Build
 
     jlpm run build
 
@@ -41,7 +41,7 @@ Show a random NASA Astronomy Picture of the Day in a JupyterLab panel
     jlpm run watch
 
 
-# 7-enjoy
+# 7 Enjoy!!!
 
   Go to View -> Ativate Command Palette -> Random Astronomy Picture
-  Take a beer!!
+  Take a beer ... or a coffee!!
