@@ -3,8 +3,7 @@ import {
   JupyterFrontEndPlugin
 } from '@jupyterlab/application';
 
-import { ICommandPalette, MainAreaWidget } from '@jupyterlab/apputils';
-import { Widget } from '@lumino/widgets';
+import { ICommandPalette } from '@jupyterlab/apputils';
 
 /**
  * Initialization data for the jupyterlab_apod extension.
