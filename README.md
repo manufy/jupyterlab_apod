@@ -6,7 +6,7 @@ Show a random NASA Astronomy Picture of the Day in a JupyterLab panel
 
 ## 1-create-environment
 
-conda create -n jupyterlab-ext --override-channels --strict-channel-priority -c conda-forge -c nodefaults jupyterlab=3 cookiecutter nodejs jupyter-packaging git
+    conda create -n jupyterlab-ext --override-channels --strict-channel-priority -c conda-forge -c nodefaults jupyterlab=3 cookiecutter nodejs jupyter-packaging git
 
 ## 2-activate-environment
 
@@ -21,23 +21,26 @@ conda create -n jupyterlab-ext --override-channels --strict-channel-priority -c 
 
 ## 3-initialize-from-cookiecutter
 
-cookiecutter https://github.com/jupyterlab/extension-cookiecutter-ts
+     cookiecutter https://github.com/jupyterlab/extension-cookiecutter-ts
 
 ## 4-activate-and-start
 
-conda activate jupyterlab-ext
-jupyter lab
+    conda activate jupyterlab-ext
+    jupyter lab
 
 ## 5-link-development-sources
 
-jupyter labextension develop --overwrite .
+    jupyter labextension develop --overwrite .
 
 ## 6-build
 
-jlpm run build
+    jlpm run build
 
-or
+  or
 
-jlpm run watch
+    jlpm run watch
 
 
+# 7-enjoy
+
+  Take a beer!!
